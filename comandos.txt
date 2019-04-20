@@ -1,5 +1,7 @@
 git tag - mostra as versão do projeto
 
+git remote add 'linkdogit' - Adiciona o repositorio ao local para push
+
 git diff (v0.1 v0.2 sitaxe) - ver o que foi alterado no projeto
 
 git blame - consegue ver detalhado as modificações do commit

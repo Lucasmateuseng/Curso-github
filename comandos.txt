@@ -138,6 +138,10 @@ git stash drop - Deleta commit isolados
 ** fim git bisect **
 
 
+git bisect reset HEAD - para de dividir sem alterar o commit e sai do modo BISECTING
+
+
+
 
 
 

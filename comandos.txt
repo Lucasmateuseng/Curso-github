@@ -54,7 +54,7 @@ git branch -a - mostra todas as branches, locais e remotas
 
 **inicio**
 
-git checkout -t - com esse comando ele faz tudo abaixo automatico
+git checkout -t design origin/design - com esse comando ele faz tudo abaixo automatico
 
 Criação de uma branch local com o mesmo nome da branch remota
 Mudança para essa nova branch criada

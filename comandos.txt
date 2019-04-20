@@ -93,7 +93,7 @@ continue,abort e skip
 
 ***Fim ciclo basico***
 
-** Voltando atrás **
+** Alterando, deletando e atualizando **
 
     * git checkout - volta ao estado anterior se o arquivo não estive no estado de index (pronto para o commit)
 
@@ -103,7 +103,9 @@ continue,abort e skip
 
     * git revert 'idcommit' - desfaz alteração mais antigas e volta ao estado sem aquele commit
 
-** Fim voltando atrás **
+    git reset --hard HEAD~1 - descartamos as alterações que estão no último commit
+
+** Fim Alterando, deletando e atualizando **
 
 ** isolando commits ** 
 

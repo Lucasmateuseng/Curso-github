@@ -70,6 +70,16 @@ git push origin :design - remove branch remota
 
 git feach - verifica qualquer atualização no repositorio
 
+git rebase - atualiza uma branch a partir da master
+
+git rebase --continue -  se der conflito ao atualizar branch para continuar rebase usar o comando
+
+**inicio rebase**
+continue,abort e skip
+
+--continue deve ser utilizado após a resolução manual de conflitos; --skip faz com que suas alterações sejam descartadas; --abort volta atrás em todo o processo de rebase
+
+**fim rebase**
 
 ***cliclo basico***
 

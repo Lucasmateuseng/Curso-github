@@ -26,6 +26,8 @@ git ls-files - mostra quais arquivos o git está controlando
 
 git push - manda os arquivos ao servidor  (github)
 
+git log (para sair preciso 'q') - mostra o historico de commit do repositorio
+
 
 ***cliclo basico***
 
@@ -35,5 +37,8 @@ git push - manda os arquivos ao servidor  (github)
 * git add
 * git commit -m "mensagem"
 * git push origin master
+* git pull verificar e tem alguma modificação no repositorio
+
+***Fim ciclo basico***
 
 

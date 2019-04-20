@@ -34,6 +34,40 @@ git whatchanged -p - é possível visualizar quais as linhas que foram modificad
 
 git log -p, que imprime também os commits nos quais não houve modificação
 
+git checkout -b design - cria a branch e entra nela por padrao
+
+git checkout nomedoarquivo - troca de branch
+
+git branch nomedoarquivo - cria a branch
+
+git branch, todas as branches locais são listadas
+
+git branch -a todas  as branches remotas são incluídas
+
+git branch -d - deleta uma branch
+
+git push -u origin design - criamos a branch remota design no repositório referente ao origin
+
+git branch -r - mostra apenas as branch remotas
+
+git branch -a - mostra todas as branches, locais e remotas
+
+**inicio**
+
+git checkout -t - com esse comando ele faz tudo abaixo automatico
+
+Criação de uma branch local com o mesmo nome da branch remota
+Mudança para essa nova branch criada
+Criação de link entre a branch local e remota
+
+**fim**
+
+git push -d origin nomedabranch - remove branch remota
+
+git push origin :design - remove branch remota
+
+git feach - verifica qualquer atualização no repositorio
+
 
 ***cliclo basico***
 

@@ -119,5 +119,23 @@ git stash drop - Deleta commit isolados
 
 ** Fim isolando commits **
 
+** git bisect ** 
+
+    git bisect start - inicia o modo bisect
+
+    git bisect bad HEAD - informa que o commit esta ruim
+
+    git bisect good 'idcommit' - informa que o commit esta bom 
+
+    bad - ruim
+
+    good - bom
+
+    obs: com a ajuda do editor vai verificando se esta bom ou ruim para o bisect achar o commit correto para ser alterado
+
+** fim git bisect **
+
+
+
 
 

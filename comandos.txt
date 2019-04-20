@@ -1,0 +1,35 @@
+git tag - mostra as versão do projeto
+
+git diff (v0.1 v0.2 sitaxe) - ver o que foi alterado no projeto
+
+git blame - consegue ver detalhado as modificações do commit
+
+git clone -  traz o repositorio do servidor (github)
+
+git checkout v.1.0 - trocar de versão o repositorio git
+
+git status - resume os ultimos arquivos modificados
+
+git add . - adiciona todos os arquivos do repositorio a stage area
+
+git add nomedoarquivo - adiciona apenas o arquivo a stage area
+
+git add -i - entra no modo interativo
+
+git commit -a - adiciona ao HEAD todas as alterações que foram realizadas no working directory
+
+git commit -m - comita um arquivo e passa a mensagem
+
+git commit - grava uma alteração no repositorio
+
+git ls-files - mostra quais arquivos o git está controlando
+
+
+
+***cliclo basico***
+
+* git init
+* git ls-files
+* git status
+* git add
+

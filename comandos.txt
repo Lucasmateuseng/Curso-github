@@ -93,4 +93,31 @@ continue,abort e skip
 
 ***Fim ciclo basico***
 
+** Voltando atrás **
+
+    * git checkout - volta ao estado anterior se o arquivo não estive no estado de index (pronto para o commit)
+
+    * git reset HEAD nomedoarquivo - volta o arquivo ao estado unstage (pronto para o commit) ao consigo fazer o comando anterior "git checkout"
+
+    * git reset 'idcommit' - desdaz alteraçãodo commit e mantem o arquivo com as alterações
+
+    * git revert 'idcommit' - desfaz alteração mais antigas e volta ao estado sem aquele commit
+
+** Fim voltando atrás **
+
+** isolando commits ** 
+
+git stash - isola ultimo commit
+
+git stash list - lista os commits isolados
+
+git stash pop - Desisola ultimo commit
+
+git stash apply 'idstash' - Desisola commit desejado
+
+git stash drop - Deleta commit isolados
+
+** Fim isolando commits **
+
+
 

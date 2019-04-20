@@ -28,6 +28,12 @@ git push - manda os arquivos ao servidor  (github)
 
 git log (para sair preciso 'q') - mostra o historico de commit do repositorio
 
+git whatchanged - mostra quais arquivos foi modificados
+
+git whatchanged -p - é possível visualizar quais as linhas que foram modificadas em cada commit do nosso projeto
+
+git log -p, que imprime também os commits nos quais não houve modificação
+
 
 ***cliclo basico***
 
